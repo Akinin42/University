@@ -1,0 +1,3 @@
+CREATE DATABASE university;
+CREATE USER docent WITH PASSWORD 'password';
+GRANT ALL PRIVILEGES ON DATABASE university TO docent;
